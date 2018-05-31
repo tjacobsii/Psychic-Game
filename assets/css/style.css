@@ -1,19 +1,24 @@
 body{
-    background-color: blue;
+    background: linear-gradient(to bottom, #800000 69%, #0000cc 100%);
+    /* background-color: blue; */
     text-align: center;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 50px;
     padding-top: 25px;
+    color: #0000cc;
+    text-shadow: -2px 0 #800000, 0 2px #800000, 2px 0 #800000, 0 -2px #800000;
 }
 
 p {
-    font-size: 20px;
-    color: darkblue;
+    font-size: 30px;
+    color: #0000cc;
+    text-shadow: -1px 0 #800000, 0 1px #800000, 1px 0 #800000, 0 -1px #800000;
 }
 
 .card {
     margin-top: 25px;
+    text-align: left;
 }
 
